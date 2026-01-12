@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/headerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/flecha_atras"
+                    android:contentDescription="Volver"
+                    android:padding="4dp"
+                    android:layout_marginEnd="8dp"/>
+
+                <TextView
+                    android:id="@+id/txtTituloCategoria"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Categoría Seleccionada"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/layoutBotonesCategoria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnDesayuno"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Desayuno"
+                        android:tag="Desayuno" android:textColor="@color/black" android:layout_marginEnd="8dp" android:paddingHorizontal="20dp"
+                        android:backgroundTint="@color/white" app:cornerRadius="24dp" app:strokeWidth="1dp" app:strokeColor="@color/gris_texto" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnAlmuerzo"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Almuerzo"
+                        android:tag="Almuerzo" android:textColor="@color/black" android:layout_marginEnd="8dp" android:paddingHorizontal="20dp"
+                        android:backgroundTint="@color/white" app:cornerRadius="24dp" app:strokeWidth="1dp" app:strokeColor="@color/gris_texto" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnBebidas"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bebidas"
+                        android:tag="Bebidas" android:textColor="@color/black" android:layout_marginEnd="8dp" android:paddingHorizontal="20dp"
+                        android:backgroundTint="@color/white" app:cornerRadius="24dp" app:strokeWidth="1dp" app:strokeColor="@color/gris_texto" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnPastas"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pastas"
+                        android:tag="Pastas" android:textColor="@color/black" android:layout_marginEnd="8dp" android:paddingHorizontal="20dp"
+                        android:backgroundTint="@color/white" app:cornerRadius="24dp" app:strokeWidth="1dp" app:strokeColor="@color/gris_texto" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnEnsaladas"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ensaladas"
+                        android:tag="Ensaladas" android:textColor="@color/black" android:layout_marginEnd="8dp" android:paddingHorizontal="20dp"
+                        android:backgroundTint="@color/white" app:cornerRadius="24dp" app:strokeWidth="1dp" app:strokeColor="@color/gris_texto" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnPostres"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Postres"
+                        android:tag="Postres" android:textColor="@color/black" android:layout_marginEnd="8dp" android:paddingHorizontal="20dp"
+                        android:backgroundTint="@color/white" app:cornerRadius="24dp" app:strokeWidth="1dp" app:strokeColor="@color/gris_texto" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnSopas"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sopas"
+                        android:tag="Sopas" android:textColor="@color/black" android:paddingHorizontal="20dp"
+                        android:backgroundTint="@color/white" app:cornerRadius="24dp" app:strokeWidth="1dp" app:strokeColor="@color/gris_texto" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/txtNoRecetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="¡Aún no tienes recetas para esta categoría!"
+                android:textSize="18sp"
+                android:textColor="@color/gris_texto"
+                android:visibility="gone"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvRecetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAgregarDesdeCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/icono_agregar"
+        android:contentDescription="Agregar nueva receta"
+        app:tint="@color/black"
+        app:backgroundTint="@color/amarilloBoton"/>
+
+</RelativeLayout>

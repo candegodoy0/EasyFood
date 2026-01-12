@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/flecha_atras"
+                android:contentDescription="volver"
+                android:layout_marginEnd="12dp"/>
+
+            <TextView
+                android:id="@+id/txtTituloCategorias"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Categorías"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDesayuno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="desayuno"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="start|center_vertical"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#909090"
+            app:backgroundTint="@color/white"
+            app:rippleColor="@color/light_gray_stroke"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAlmuerzo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="almuerzo"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="start|center_vertical"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#909090"
+            app:backgroundTint="@color/white"
+            app:rippleColor="@color/light_gray_stroke"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBebidas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bebidas"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="start|center_vertical"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#909090"
+            app:backgroundTint="@color/white"
+            app:rippleColor="@color/light_gray_stroke"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPastas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pastas"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="start|center_vertical"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#909090"
+            app:backgroundTint="@color/white"
+            app:rippleColor="@color/light_gray_stroke"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEnsaladas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ensaladas"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="start|center_vertical"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#909090"
+            app:backgroundTint="@color/white"
+            app:rippleColor="@color/light_gray_stroke"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPostres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="postres"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="start|center_vertical"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#909090"
+            app:backgroundTint="@color/white"
+            app:rippleColor="@color/light_gray_stroke"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSopa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sopa"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="start|center_vertical"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#909090"
+            app:backgroundTint="@color/white"
+            app:rippleColor="@color/light_gray_stroke"/>
+
+    </LinearLayout>
+</ScrollView>

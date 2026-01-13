@@ -103,9 +103,7 @@ Con scroll horizontal y centrado automático del botón seleccionado.
 
 ---
 
-## Capturas de pantalla
-
-<h3>📸 Capturas de la Aplicación</h3>
+## Capturas de pantalla de la Aplicación
 
 <p align="center">
   <img src="img/inicio.png" width="200"/>
@@ -128,5 +126,5 @@ Con scroll horizontal y centrado automático del botón seleccionado.
 ## 👩‍💻 Autora
 
 **Candela Godoy**  
-Tecnicatura Universitaria en Programación de Sistemas – UCES  
+Desarrollado en la Tecnicatura Universitaria en Programación de Sistemas – UCES  
 

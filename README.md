@@ -108,28 +108,29 @@ Prototipo completo de diseño:
 
 ## Capturas de pantalla
 
-### Pantalla de inicio
-![Inicio](img/inicio.png)
+<h3>📸 Capturas de la Aplicación</h3>
 
-### Login
-![Login](img/login.png)
+<p align="center">
+  <img src="img/inicio.png" width="200"/>
+  <img src="img/login.png" width="200"/>
+  <img src="img/registro.png" width="200"/>
+  <img src="img/principal.png" width="200"/>
+</p>
 
-### Registro
-![Registro](img/registro.png)
+<p align="center">
+  <img src="img/categorias.png" width="200"/>
+  <img src="img/misrecetas.png" width="200"/>
+  <img src="img/agregar.png" width="200"/>
+</p>
 
-### Pantalla principal
-![Principal](img/principal.png)
+</em>
 
-### Categorías
-![Categorías](img/categorias.png)
-
-### Mis recetas
-![Mis Recetas](img/misrecetas.png)
-
-### Agregar receta
-![Agregar Receta](img/agregar.png)
 
 ---
 
-## 📁 Estructura del proyecto
+## 👩‍💻 Autora
 
+**Candela Godoy**  
+Tecnicatura Universitaria en Programación de Sistemas – UCES  
+
+## 📁 Estructura del proyecto

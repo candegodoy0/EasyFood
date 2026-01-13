@@ -133,4 +133,3 @@ Prototipo completo de diseño:
 **Candela Godoy**  
 Tecnicatura Universitaria en Programación de Sistemas – UCES  
 
-## 📁 Estructura del proyecto

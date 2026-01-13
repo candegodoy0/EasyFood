@@ -3,10 +3,8 @@ Aplicación móvil desarrollada en **Android Studio (Kotlin + XML)**, diseñada 
 
 ---
 
-## Video demostración
-**Ver video completo del funcionamiento:**  
-[https://drive.google.com/file/d/11kcMBSgLKmryikZOL3d15AtLwbdjLxE9/view?usp=drivesdk](https://drive.google.com/file/d/11kcMBSgLKmryikZOL3d15AtLwbdjLxE9/view?usp=drivesdk)
-
+## Video demostración  
+[ Ver video](https://drive.google.com/file/d/11kcMBSgLKmryikZOL3d15AtLwbdjLxE9/view?usp=drivesdk)
 ---
 
 ## Funcionalidades principales
@@ -100,9 +98,8 @@ Con scroll horizontal y centrado automático del botón seleccionado.
 
 ---
 
-## Prototipado en Figma
-Prototipo completo de diseño:
-**https://www.figma.com/file/YRpEjsdKFJiLMkl9NYUPKz?node-id=0:1&locale=es-la&type=design**
+## Prototipado en Figma  
+[ Ver prototipo en Figma](https://www.figma.com/file/YRpEjsdKFJiLMkl9NYUPKz?node-id=0%3A1)
 
 ---
 

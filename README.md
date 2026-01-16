@@ -103,7 +103,9 @@ Con scroll horizontal y centrado automático del botón seleccionado.
 
 ---
 
-## Capturas de pantalla de la Aplicación
+## Capturas
+
+A continuación se muestran **algunas vistas** representativas de la aplicación:
 
 <p align="center">
   <img src="img/inicio.png" width="200"/>

@@ -4,7 +4,7 @@ Aplicación móvil desarrollada en **Android Studio (Kotlin + XML)**, diseñada 
 ---
 
 ## Video demostración  
-[ Ver video](https://drive.google.com/file/d/11kcMBSgLKmryikZOL3d15AtLwbdjLxE9/view?usp=drivesdk)
+
 ---
 
 ## Funcionalidades principales
